@@ -12,13 +12,13 @@ The latest tag is a lightweight image for basic validation of Ansible playbooks.
 
 ## How to Build
 
-This image is built on Docker Hub automatically any time the upstream OS container is rebuilt, and any time a commit is made or merged to the `master` branch. But if you need to build the image on your own locally, do the following:
+This image is built on Docker Hub automatically any time the upstream OS container is rebuilt, and any time a commit is made or merged to the `main` branch. But if you need to build the image on your own locally, do the following:
 
   1. [Install Docker](https://docs.docker.com/engine/installation/).
   2. `cd` into this directory.
   3. Run `docker build -t fedora38-ansible .`
 
-> Note: Switch between `master` and `testing` depending on whether you want the extra testing tools present in the resulting image.
+> Note: Switch between `main` and `testing` depending on whether you want the extra testing tools present in the resulting image.
 
 ## How to Use
 
